@@ -1,0 +1,33 @@
+﻿# .gitignore
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.Python
+
+# Data
+data/*.csv
+data/*.db
+logs/
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+
+# Power BI
+*.pbix
+
+# Pentaho PDI
+*.ktr.user
+*.kjb.user
+
+# Secrets (do not commit credentials)
+*.env
+secrets.json
