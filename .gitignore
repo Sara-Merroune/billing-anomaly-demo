@@ -31,3 +31,7 @@ Desktop.ini
 # Secrets (do not commit credentials)
 *.env
 secrets.json
+
+# allow demo sample files
+!data/anomalies.csv
+!reports/BillingAnomalies.pbix
